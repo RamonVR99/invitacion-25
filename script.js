@@ -1,13 +1,13 @@
 // 1. Aquí guardamos toda la información de la invitación
 const invitacion = {
-    nombre: "Carlos",
-    edad: "25 años",
-    fecha: "📅 20 de Octubre de 2026",
+    nombre: "Veronica Ramirez",
+    edad: "cincuenta y tantos años",
+    fecha: "📅 12 de Octubre de 2026",
     hora: "🕐 7:00 PM",
-    lugar: "📍 Salón Imperial",
+    lugar: "📍 Salón los Tílines",
     foto: "https://picsum.photos/200",
     telefono: "52 1 33 1808 7879", 
-    fechaExacta: "Oct 20, 2026 19:00:00",
+    fechaExacta: "Oct 12, 2026 14:00:00",
     mapa: "https://maps.app.goo.gl/maps"
 };
 
