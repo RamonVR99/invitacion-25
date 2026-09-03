@@ -5,8 +5,8 @@ const invitacion = {
     fecha: "📅 12 de Octubre de 2026",
     hora: "🕐 7:00 PM",
     lugar: "📍 Salón los Tílines",
-    foto: "https://picsum.photos/200",
-    telefono: "52 1 33 1808 7879", 
+    foto: "tilin.jpg",
+    telefono: "5213318087879", 
     fechaExacta: "Oct 12, 2026 14:00:00",
     mapa: "https://maps.app.goo.gl/maps"
 };
