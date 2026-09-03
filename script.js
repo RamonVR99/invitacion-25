@@ -8,7 +8,7 @@ const invitacion = {
     foto: "tilin.jpg",
     telefono: "5213318087879", 
     fechaExacta: "Oct 12, 2026 14:00:00",
-    mapa: "https://maps.app.goo.gl/maps"
+    mapa: "https://maps.app.goo.gl/ssW7dwmoXJs1XH679"
 };
 
 // 2. Aquí le decimos a la página que reemplace los textos con nuestra información
