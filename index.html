@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Esta línea es clave para que se vea bien en celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Invitación de Cumpleaños</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Aquí empieza nuestra tarjeta -->
+    <div class="tarjeta">
+        
+        <h1>¡Estás invitado!</h1>
+        
+        <h2 id="nombre">Ramón</h2>
+        
+        <img src="https://picsum.photos/200" class="foto-perfil" id="foto">
+        
+        <!-- Nuevo reproductor de música -->
+        <audio id="musica-fondo" loop>
+            <!-- Usamos una canción de prueba de internet -->
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        </audio>
+        
+        <button id="btn-musica" class="boton-musica">🎵 Activar Música</button>
+        
+        <p class="edad" id="edad">25 años</p>
+        
+        <!-- Sección de detalles -->
+        <div class="detalles">
+            <p id="fecha">📅 20 de Octubre de 2026</p>
+            <p id="hora">🕐 7:00 PM</p>
+            <p id="lugar">📍 Salón Imperial</p>
+        </div>
+
+        <!-- Nueva sección de cuenta regresiva -->
+        <div class="cuenta-regresiva">
+            <div class="tiempo">
+                <span id="dias">0</span>
+                <p>Días</p>
+            </div>
+            <div class="tiempo">
+                <span id="horas">0</span>
+                <p>Hrs</p>
+            </div>
+            <div class="tiempo">
+                <span id="minutos">0</span>
+                <p>Min</p>
+            </div>
+            <div class="tiempo">
+                <span id="segundos">0</span>
+                <p>Seg</p>
+            </div>
+        </div>
+        
+    
+        <a href="#" class="boton-confirmar" id="btn-whatsapp">Confirmar Asistencia</a>
+        <a href="#" class="boton-mapa" id="btn-mapa" target="_blank">📍 Ver Ubicación</a>
+        
+    </div>
+    <!-- Aquí termina nuestra tarjeta -->
+
+    <!-- Esta línea conecta el HTML con el JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
