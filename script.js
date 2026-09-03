@@ -6,7 +6,7 @@ const invitacion = {
     hora: "🕐 7:00 PM",
     lugar: "📍 Salón Imperial",
     foto: "https://picsum.photos/200",
-    telefono: "523312345678", 
+    telefono: "52 1 33 1808 7879", 
     fechaExacta: "Oct 20, 2026 19:00:00",
     mapa: "https://maps.app.goo.gl/maps"
 };
