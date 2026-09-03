@@ -19,7 +19,7 @@ document.getElementById("hora").textContent = invitacion.hora;
 document.getElementById("lugar").textContent = invitacion.lugar;
 
 // 3. Para la imagen no cambiamos el texto, cambiamos su origen (src)
-document.getElementById("Tilín.jpg").src = invitacion.foto;
+document.getElementById("tilin.jpg").src = invitacion.foto;
 // 4. Configurar el botón de WhatsApp
 // Creamos el mensaje combinando texto con el nombre de la invitación
 const mensaje = "¡Hola! Confirmo mi asistencia al cumpleaños de " + invitacion.nombre + ".";
